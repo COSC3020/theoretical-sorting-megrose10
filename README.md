@@ -16,3 +16,5 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+To verify this claim, like in the slides, you can follow the two ways the algorithm can go. Either the compare is true or false, so there are only two possibilites. So, we can assume this would be possible.
