@@ -21,9 +21,9 @@ In order to verify said claim, we must first look at the best case runtime. Acco
 for a comparison algorithm would be $O(nlogn)$, so, this run time would be incorrect. Looking further,
 the binary tree for each decision including leaves of true or false must have at least a height of $n!$, so the given time 
 would be incorrect. So, therefore, while the best case we may expect $O(nlogn)$, this proves the given run time
-for X to be incorrect. If I were to load in 2, 3, 4, 1, the tree would need a height of 4!, and would need to test each decision
-to make the right choice on whether it is sorted or not. The tree is bases on the decisions, not the numbers loaded in. Each leaf
-would essentially include a decision, looking at whether a[0] > a[1], and continues to see if this is true or false. 
+for X to be incorrect. Speaking on the physical analysis, while testing a list of 5 numbers, there are about 5! decisions that 
+could come out, so natrually, each number would need to make sure it was in its right location. For a faster algotithm, 
+it would still take $O(5log5)$, since it cannot just test 5 times and be done.
 
 I used the class slides/video on reviewing the material.
 
